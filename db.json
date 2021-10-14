@@ -1,4 +1,4 @@
-[
+{
      "posts": [
     {
       "id": 1,
@@ -7,35 +7,5 @@
   ],
   "profile": {
     "name": "typicode"
-  },
-
-"productos":
-    
-  {
-    "id": 1,
-    "name": "Billetera",
-    "description": "Billetera de cuero negro",
-    "reference": "REF-005",
-    "status": "inactive",
-    "inventory": {
-      "unit": "piece",
-      "availableQuantity": 150,
-      "unitCost": 560,
-      "initialQuantity": 320,
-      "warehouses": [
-        {
-          "id": 1,
-          "name": "Bodega Norte",
-          "observations": null,
-          "isDefault": true,
-          "address": "Dirección de la bodega Norte",
-          "status": "active",
-          "initialQuantity": 320,
-          "availableQuantity": 150,
-          "minQuantity": 100,
-          "maxQuantity": 400
-        }
-      ]
-    }
   }
-]
+}
